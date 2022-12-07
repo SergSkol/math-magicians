@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-const arrButtons = [];
+const arrButtons = ['1'];
 
 export default class Calculator extends Component {
   constructor(props) {
@@ -11,6 +11,6 @@ export default class Calculator extends Component {
   render() {
     return (
       <div>Calculator</div>
-    )
+    );
   }
 }
