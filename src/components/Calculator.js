@@ -1,8 +1,9 @@
-/* eslint-disable */
-import React, { Component } from 'react';
+/* eslint class-methods-use-this: ["error", { "exceptMethods": ["render", "CreateButtons"] }] */
+/* eslint-env es6 */
+import React from 'react';
 import arrButtons from './Buttons';
 
-export default class Calculator extends Component {
+export default class Calculator extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
