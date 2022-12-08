@@ -25,3 +25,36 @@ code {
     'Courier New',
     monospace;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 400px;
+  margin: 200px auto;
+}
+
+.result {
+  grid-column: 1 / 5;
+  text-align: right;
+  background-color: #858693;
+  color: #fff;
+  padding: 20px;
+}
+
+.container button {
+  padding: 20px;
+  border: 1px solid #d1d1d1;
+}
+
+.zero {
+  grid-column: 1 / 3;
+  background-color: #e1e1e0;
+}
+
+.btn-standart {
+  background-color: #e1e1e0;
+}
+
+.btn-highlight {
+  background-color: #f5903f;
+}
