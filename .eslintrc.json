@@ -22,7 +22,9 @@
     "no-shadow": "off",
     "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
     "react/react-in-jsx-scope": "off",
-    "import/no-unresolved": "off"
+    "import/no-unresolved": "off",
+    "react/jsx-uses-react": "error",   
+    "react/jsx-uses-vars": "error"
   },
   "ignorePatterns": [
     "dist/",
