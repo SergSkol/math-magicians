@@ -16,7 +16,7 @@ const arrButtons = [
   },
   {
     key: 'div',
-    show: '/',
+    show: '÷',
     class: 'btn-highlight',
   },
   {
@@ -36,7 +36,7 @@ const arrButtons = [
   },
   {
     key: 'mult',
-    show: '*',
+    show: 'x',
     class: 'btn-highlight',
   },
   {
