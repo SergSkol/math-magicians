@@ -88,7 +88,11 @@ code {
   padding-right: 24px;
 }
 
-.homeContent h2, p {
+.homeContent h2 {
+  margin-left: 24px;
+}
+
+.homeText {
   margin-left: 24px;
 }
 
