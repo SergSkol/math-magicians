@@ -26,13 +26,16 @@ const Calculator = () => {
   };
 
   return (
-    <div className="container">
-      <div className="result">
-        <p> {state.total}</p>
-        <p> {state.operation}</p>
-        <p> {state.next}</p>
+    <div className='calcContent'>
+      <h2>Let`s do some math!</h2>
+      <div className="container">
+        <div className="result">
+          <p> {state.total}</p>
+          <p> {state.operation}</p>
+          <p> {state.next}</p>
+        </div>
+          <CreateButtons />
       </div>
-        <CreateButtons />
     </div>
   );
 };
