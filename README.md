@@ -80,7 +80,8 @@ Pleaseholder
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link](https://SergSkol.github.io/math-magicians/dist/)
+- [Live Demo on Pages](https://sergskol.github.io/math-magicians/public/)
+- [Live Demo on Render.com](https://math-magicians-fj49.onrender.com)
 
 <!-- GETTING STARTED -->
 
