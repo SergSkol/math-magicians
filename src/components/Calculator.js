@@ -4,7 +4,7 @@ import calculate from '../logic/calculate';
 
 const Calculator = () => {
   const [state, setState] = useState({
-    total: 0,
+    total: '0',
     next: null,
     operation: null,
   });
@@ -17,7 +17,7 @@ const Calculator = () => {
     const btns = [];
     arrButtons.forEach((btn) => {
       btns.push(<button
-        id={btn.key}
+        key={btn.key}
         className={btn.class}
         onClick={handleClick}
         >{btn.show}</button>);

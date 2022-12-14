@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test home page with snapshot 1`] = `
+<div
+  className="homeContent"
+>
+  <h2>
+    Welcome to our page!
+  </h2>
+  <p
+    className="homeText"
+  >
+    This web site was created follow the tutorial: React Tutorial From Scratch: A Step-by-Step Guide (2021)! https://ibaslogic.com/react-tutorial-for-beginners/ This tutorial, divided into several parts, is very comprehensive, and covers all main concepts about React, from the very basics to some intermediate topics.
+  </p>
+</div>
+`;

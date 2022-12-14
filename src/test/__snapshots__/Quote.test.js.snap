@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote component snapshots test 1`] = `
+<div
+  className="quoteContent"
+>
+  <p>
+     
+    Five out of four people have trouble with fractions. ...
+     
+  </p>
+</div>
+`;
