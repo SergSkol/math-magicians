@@ -5,11 +5,9 @@ exports[`Quote component snapshots test 1`] = `
   className="quoteContent"
 >
   <p>
-    <p>
-       
-      There are two ways to do great mathematics. ...
-       
-    </p>
+     
+    Five out of four people have trouble with fractions. ...
+     
   </p>
 </div>
 `;

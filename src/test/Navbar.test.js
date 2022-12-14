@@ -1,21 +1,23 @@
-import { render, screen } from '@testing-library/react';
-import useEvent from '@testing-library/user-event';
+import React from 'react';
+import { render, screen, fireEvent } from '@testing-library/react';
+import '@testing-library/jest-dom/extend-expect';
+import Calculator from '../components/Calculator';
 
 describe('Testing Navigation', () => {
   test('Test for Navbar component', () => {
-    render(
-       <nav className="navBar">
-            <h1>Math Magic</h1>
-            <ul className='navMenu'>
-            <li><Link to="/" className="navItem">Home</Link></li>
-            <li><Link to="/calculator" className="navItem">Calculator</Link></li>
-            <li><Link to="/quote" className="navItem">Quote</Link></li>
-            </ul>
-        </nav>
-    );
+    render(<Calculator />);
 
-    useEvent.click(screen.getByText('Home'));
-    useEvent.click(screen.getByText('Calculator'));
-    useEvent.click(screen.getByText('Quote'));
+    expect(screen.getByText('Let`s do some math!')).toBeInTheDocument();
+  });
+
+  test('Test for events in Claculator component', () => {
+    const { getByText } = render(<Calculator />);
+
+    fireEvent.click(getByText('5'));
+    fireEvent.click(getByText('÷'));
+    fireEvent.click(getByText('2'));
+    fireEvent.click(getByText('='));
+
+    expect(screen.getByText('2.5')).toBeInTheDocument();
   });
 });

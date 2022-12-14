@@ -17,7 +17,7 @@ const Calculator = () => {
     const btns = [];
     arrButtons.forEach((btn) => {
       btns.push(<button
-        id={btn.key}
+        key={btn.key}
         className={btn.class}
         onClick={handleClick}
         >{btn.show}</button>);

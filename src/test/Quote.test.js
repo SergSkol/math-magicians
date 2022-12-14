@@ -4,7 +4,7 @@ import Quote from '../components/Quote';
 
 it('Quote component snapshots test', () => {
   const tree = renderer
-    .create(<Quote />)
+    .create(<Quote quoteIndex={5}/>)
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
