@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote component snapshots test 1`] = `
+<div
+  className="quoteContent"
+>
+  <p>
+    <p>
+       
+      There are two ways to do great mathematics. ...
+       
+    </p>
+  </p>
+</div>
+`;
