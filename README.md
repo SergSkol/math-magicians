@@ -36,7 +36,7 @@ By building this application, we use React.
 
 # 👁‍🗨 Preview
 
-Pleaseholder
+![image](https://user-images.githubusercontent.com/106581139/210736100-9b48025b-4390-4d36-9c69-48751f168a99.png)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -80,7 +80,7 @@ Pleaseholder
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link](https://SergSkol.github.io/math-magicians/dist/)
+- [Live Demo Link](https://math-magic-puce.vercel.app/)
 
 <!-- GETTING STARTED -->
 
